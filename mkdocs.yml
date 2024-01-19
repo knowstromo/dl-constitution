@@ -1,0 +1,34 @@
+site_name: Dangerous Lumber
+theme:
+  name: material
+  font:
+    text: Lato
+    code: Merriweather
+  palette:
+    scheme: default
+    primary: cyan
+    accent: red
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.top
+    - content.code.copy
+    - content.code.annotate
+    - gridcards
+  logo: assets/arnold_big.png
+  favicon: images/favicon.ico
+  icon:
+    annotation: material/arrow-right-circle
+  markdown_extensions:
+    - tables
+    - attr_list
+    - md_in_html
+    - pymdownx.superfences
+    - markdown.extensions.codehilite
+
+copyright: |
+  &copy; 2024 Lumbercorp.
+
+extra:
+  generator: false
